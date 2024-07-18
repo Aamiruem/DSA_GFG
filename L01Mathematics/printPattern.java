@@ -48,8 +48,9 @@ public class printPattern {
             p.printPat(m);
             System.out.println();
             n--;
+            sc.close();
         }
-        sc.close();
+        
     }
 
     private void printPat(int m) {
