@@ -1,7 +1,16 @@
 package DSA_GFG.L2Array;
 
 public class InsertElements {
+    // Function to insert a given key in
+    // the array. This function returns n+1
+    // if insertion is successful, else n.
     public static int insertSorted(int arr[], int n, int key, int capacity) {
+        
+        // If the array is already sorted,
+        // then no need to insert
+        // Cannot insert more elements if n
+        // is already more than or equal to
+        // capacity
         if (n >= capacity) {
             System.out.println("Array is full. Cannot insert.");
             return n;
