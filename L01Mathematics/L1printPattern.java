@@ -37,14 +37,14 @@ package DSA_GFG.L01Mathematics;
 
 import java.util.Scanner;
 
-public class printPattern {
+public class L1printPattern {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         while (n > 0) {
             int m = sc.nextInt();
-            printPattern p = new printPattern();
+            L1printPattern p = new L1printPattern();
             p.printPat(m);
             System.out.println();
             n--;

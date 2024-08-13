@@ -3,7 +3,7 @@ package DSA_GFG.L01Mathematics;
 import java.io.*;
 import java.util.*;
 
-public class PrintTable {
+public class L2PrintTable {
 
     public static void main(String args[]) throws IOException {
         System.out.println("Enter your table number: ");
@@ -11,7 +11,7 @@ public class PrintTable {
         int t = sc.nextInt(); // number of test cases
         while (t-- > 0) {
             int N = sc.nextInt(); // the number for which the table is to be printed
-            PrintTable ob = new PrintTable();
+            L2PrintTable ob = new L2PrintTable();
             ArrayList<Integer> ans = ob.getTable(N); // calling the getTable method
             for (Integer val : ans) 
                 System.out.print(val + " "); 

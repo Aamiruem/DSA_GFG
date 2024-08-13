@@ -2,7 +2,7 @@ package DSA_GFG.L01Mathematics;
 
 import java.io.*;
 
-public class Series {
+public class L3SeriesAP {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,7 +19,7 @@ public class Series {
             int n;
             n = Integer.parseInt(br.readLine());
 
-            Series obj = new Series();
+            L3SeriesAP obj = new L3SeriesAP();
             int res = obj.nthTermOfAP(a1, a2, n);
 
             System.out.println(res);
