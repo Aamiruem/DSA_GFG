@@ -38,19 +38,23 @@ package DSA_GFG.L01Mathematics;
 import java.util.Scanner;
 
 public class L1printPattern {
-    
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the number of times to print the pattern: ");
         int n = sc.nextInt();
+        
+        System.out.print("Enter the pattern size: ");
+        int m = sc.nextInt();
+        
         while (n > 0) {
-            int m = sc.nextInt();
             L1printPattern p = new L1printPattern();
             p.printPat(m);
             System.out.println();
             n--;
-            sc.close();
         }
-        
+        sc.close(); // close the scanner after the loop
     }
 
     private void printPat(int m) {
@@ -61,6 +65,7 @@ public class L1printPattern {
                 }
             }
             System.out.print("$");
+            System.out.println(); // add a newline after each row
         }
     }
 }
