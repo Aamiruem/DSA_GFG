@@ -1,4 +1,4 @@
-package DSA_GFG.L2Array;
+package DSA_GFG.L03Array;
 
 public class InsertElements {
     // Function to insert a given key in

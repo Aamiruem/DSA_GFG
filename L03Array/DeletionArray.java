@@ -1,4 +1,4 @@
-package DSA_GFG.L2Array;
+package DSA_GFG.L03Array;
 // Java program to implement delete
 // operation in an unsorted array
 

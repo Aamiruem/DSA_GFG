@@ -1,7 +1,7 @@
 // Time Complexity: O(N) 
 // Auxiliary Space: O(1)
 
-package DSA_GFG.L2Array;
+package DSA_GFG.L03Array;
 
 public class SearchElements {
     public static int findElement(int arr[], int n, int key) {

@@ -4,7 +4,7 @@
 
 
 
-package DSA_GFG.L2Array;
+package DSA_GFG.L03Array;
 
 public class InsertAtAnyPosition {
     public static void insertElement(int arr[], int n, int x, int pos){
