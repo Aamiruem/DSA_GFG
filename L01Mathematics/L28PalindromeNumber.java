@@ -14,7 +14,7 @@
 package DSA_GFG.L01Mathematics;
 
 import java.util.Scanner;
-public class PalindromeNumber {
+public class L28PalindromeNumber {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
