@@ -9,7 +9,7 @@
 
 package DSA_GFG.L03Array;
 
-class ArraySum {
+public class ArraySum {
 
     // Method to find the sum of elements in the array
     public static int findSum(int[] arr) {
